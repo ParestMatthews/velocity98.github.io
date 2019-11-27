@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+}
+ html{
+   scroll-behavior:smooth;
+   margin: 0;
+   width: 100%;
+   padding: 0px;
+ }
+body{
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+
+.circuit{
+  height: 600px;
+  width: 100%;
+  background-image: url(images/circuit.jpg);
+  background-repeat: no-repeat;
+  background-size: relative;
+  position: relative;
+  display: flex;
+}
+
+.navbar {
+    box-shadow:0 8px 6px -5px #000;
+    /* the rest of your styling */
+}
+
+.name{
+  color:white;
+  font-size: 50px;
+}
+
+.desc{
+  color: white;
+  font-size: 23px;
+  font-family: times new roman, cursive;
+}
+
+
+@media screen and (max-width: 768px){
+.myimage{
+display: block;
+  margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  box-shadow:5px 5px 10px -3px #000;
+}
+}
+
+@media screen and (min-width: 769px){
+.myimage{
+  height: 80%;
+  width: 80%;
+  box-shadow:5px 5px 10px -3px #000;
+}
+}
+
+@media screen and (max-width: 768px){
+.try{
+display: block;
+  margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+}
+
+@media screen and (min-width: 769px){
+.imgsize img{
+width:3%;
+height:auto;
+}
+}
+
+@media screen and (max-width: 768px){
+.imgsize img{
+  width:5%;
+  height:auto%;
+}
+}
