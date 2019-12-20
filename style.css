@@ -1,39 +1,31 @@
 *{
-  margin: 0;
+  font-family: 'roboto';
 }
  html{
    scroll-behavior:smooth;
-   margin: 0;
-   width: 100%;
-   padding: 0px;
+   width: auto;
  }
 body{
-  margin: 0;
   height: 100%;
-  width: 100%;
+  width: auto;
   padding: 0px;
   overflow-x: hidden;
+  background-color: #E8E8E8;
 }
 
-
+.horizontal{
+  background-color:white;
+  width: 30%;
+}
 .circuit{
   height: 600px;
   width: 100%;
-  background-image: url(images/circuit.jpg);
-  background-repeat: no-repeat;
-  background-size: relative;
   position: relative;
   display: flex;
 }
 
-.navbar {
-    box-shadow:0 8px 6px -5px #000;
-    /* the rest of your styling */
-}
-
-.name{
-  color:white;
-  font-size: 50px;
+.title{
+    margin-top: 15%;
 }
 
 .desc{
@@ -42,6 +34,23 @@ body{
   font-family: times new roman, cursive;
 }
 
+.card{
+  -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,1);
+  -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,1);
+  box-shadow: 1px 2px 8px -6px rgba(0,0,0,1);
+  border-style: solid;
+  border-width: 1px;
+  border-color: #C0C0C0;
+}
+
+.gif{
+  -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,1);
+  -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,1);
+  box-shadow: 5px 5px 15px -6px rgba(0,0,0,1);
+  border-style: solid;
+  border-width: 1px;
+  border-color: #C0C0C0;
+}
 
 @media screen and (max-width: 768px){
 .myimage{
@@ -82,4 +91,12 @@ height:auto;
   width:5%;
   height:auto%;
 }
+}
+
+footer {
+  padding: 25px;
+  bottom: 0px;
+  width: 100%;
+  height: 70px;
+  color:white;
 }
